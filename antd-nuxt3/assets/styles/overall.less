@@ -1,0 +1,37 @@
+@import url('./config.less');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  color: @text-default-color;
+  font-family: PingFangSC-Regular, helvetica, "Microsoft YaHei", arial, sans-serif;
+  background-color: @background-color;
+}
+
+a:link {
+  // 未访问: 无下划线 
+  text-decoration: none;
+  color: @text-default-color;
+}
+a:active {
+  // 激活: todo
+  color: @text-default-color;
+}
+a:visited {
+  // 已访问: 无下划线 
+  text-decoration: none;
+  color: @text-default-color;
+}
+a:hover {
+   // 鼠标移近: 下划线
+  text-decoration: none;
+  color: @text-default-color;
+}
